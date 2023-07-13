@@ -11,6 +11,11 @@ h1 {
     height: auto;
 }
 
+ul {
+    color: greenyellow;
+}
+
 a {
     color: greenyellow;
+    font-size: 24px;
 }
