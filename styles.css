@@ -1,18 +1,40 @@
 body {
     background-color: black;
     color: greenyellow;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 55px;
 }
 
 .fat-mac {
     width: 500px;
     height: auto;
+    margin: 20px;
 }
 
 ul {
     color: greenyellow;
+    list-style: none;
 }
 
-a {
+li a{
     color: greenyellow;
     font-size: 24px;
+    text-decoration: none;
+}
+
+li button {
+    background-color: black;
+    border: 2px solid greenyellow;
+    width: 250px;
+    height: auto;
+    margin: 12px;
+    padding: 12px;
+}
+
+li button:hover{
+    background-color: green;
 }
